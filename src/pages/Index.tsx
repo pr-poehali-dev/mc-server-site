@@ -18,7 +18,7 @@ const Index = () => {
       className="min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{
         backgroundImage:
-          "url(https://cdn.poehali.dev/files/b1d46d6c-68bd-4821-ae92-796b098ba291.jpg)",
+          "url(https://cdn.poehali.dev/files/21fee448-894d-4ab6-b247-ee440e650e45.jpg)",
       }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
