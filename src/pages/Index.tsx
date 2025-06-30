@@ -171,11 +171,11 @@ const Index = () => {
                     Проходка на Сервер
                   </CardTitle>
                   <CardDescription className="text-gray-300">
-                    Получи доступ к серверу и начни своё приключение
+                    Доступ к серверу
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="text-3xl font-bold text-purple-400">299₽</div>
+                  <div className="text-3xl font-bold text-purple-400">50₽</div>
                   <ul className="text-gray-300 space-y-2">
                     <li className="flex items-center">
                       <Icon
@@ -183,15 +183,7 @@ const Index = () => {
                         size={16}
                         className="mr-2 text-green-500"
                       />
-                      Пожизненный доступ
-                    </li>
-                    <li className="flex items-center">
-                      <Icon
-                        name="Check"
-                        size={16}
-                        className="mr-2 text-green-500"
-                      />
-                      Стартовый набор
+                      Доступ к серверу
                     </li>
                     <li className="flex items-center">
                       <Icon
