@@ -23,7 +23,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                 <Icon name="Gamepad2" size={20} className="text-white" />
               </div>
-              <h1 className="text-2xl font-bold text-white">VanillaRP</h1>
+              <h1 className="text-2xl font-bold text-white">CaryCraft</h1>
             </div>
             <div className="flex space-x-1">
               <Button
