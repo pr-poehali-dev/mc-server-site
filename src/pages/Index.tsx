@@ -14,9 +14,16 @@ const Index = () => {
   const [activeTab, setActiveTab] = useState("home");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      style={{
+        backgroundImage:
+          "url(https://cdn.poehali.dev/files/b1d46d6c-68bd-4821-ae92-796b098ba291.jpg)",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/50"></div>
       {/* Navigation */}
-      <nav className="border-b border-purple-800/30 bg-black/20 backdrop-blur-sm">
+      <nav className="border-b border-purple-800/30 bg-black/20 backdrop-blur-sm relative z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
@@ -56,7 +63,7 @@ const Index = () => {
       </nav>
 
       {/* Content */}
-      <div className="max-w-6xl mx-auto px-6 py-8">
+      <div className="max-w-6xl mx-auto px-6 py-8 relative z-10">
         {activeTab === "home" && (
           <div className="space-y-8">
             {/* Hero Section */}
@@ -185,14 +192,6 @@ const Index = () => {
                       />
                       Доступ к серверу
                     </li>
-                    <li className="flex items-center">
-                      <Icon
-                        name="Check"
-                        size={16}
-                        className="mr-2 text-green-500"
-                      />
-                      Доступ к Discord
-                    </li>
                   </ul>
                   <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
                     <Icon name="ShoppingCart" size={16} className="mr-2" />
@@ -221,7 +220,7 @@ const Index = () => {
                         />
                         <span className="text-white">1 Сердце</span>
                       </div>
-                      <span className="text-red-400 font-bold">99₽</span>
+                      <span className="text-red-400 font-bold">10₽</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-red-900/20 rounded-lg border border-red-800/30">
                       <div className="flex items-center">
@@ -232,7 +231,7 @@ const Index = () => {
                         />
                         <span className="text-white">5 Сердец</span>
                       </div>
-                      <span className="text-red-400 font-bold">399₽</span>
+                      <span className="text-red-400 font-bold">50₽</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-red-900/20 rounded-lg border border-red-800/30">
                       <div className="flex items-center">
@@ -243,7 +242,7 @@ const Index = () => {
                         />
                         <span className="text-white">10 Сердец</span>
                       </div>
-                      <span className="text-red-400 font-bold">699₽</span>
+                      <span className="text-red-400 font-bold">100₽</span>
                     </div>
                   </div>
                   <Button className="w-full bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700">
